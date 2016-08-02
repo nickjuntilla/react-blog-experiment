@@ -88,6 +88,6 @@ export const reducer = (state = 'Hello, world!', action) => {
 // but using redux-action-reducer-mapper which allows to keep the complexity
 // of the reducer on a predictibly low level
 export const reducer = mapActionToReducer({
-  'default': ['initialData','data'],
+  'default': {name:'loading',author:{name:'loading'},content:'loading'},
   'UPDATE_BLOG_POSTS': (state, action) => action.payload
 });

@@ -3,12 +3,6 @@ import ReactDOM from 'react-dom';
 import { Router, Route, browserHistory } from 'react-router';
 import { Provider } from 'react-redux';
 
-import './global/javascript/utils.js';
-import './global/javascript/wp.js';
-
-import './global/styles/style.css';
-import './global/styles/style2.css';
-
 // Import application store
 import { store } from './store';
 

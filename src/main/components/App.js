@@ -2,10 +2,11 @@ import React from 'react';
 
 import BlogPosts from './BlogPosts';
 
-import css from './App.less'
+//import css from './App.less'
 
 const App = () => (
-  <div class={css.component}>
+  <div>
+    {console.log("app loaded")}
     <BlogPosts />
   </div>
 )

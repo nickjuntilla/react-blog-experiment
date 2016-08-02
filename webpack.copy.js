@@ -6,7 +6,7 @@ module.exports = {
     devServer: {
         // This is required for webpack-dev-server if using a version <3.0.0.
         // The path should be an absolute path to your build destination.
-        outputPath: path.join(__dirname, 'build')
+        outputPath: path.join(__dirname, 'target')
     },
     plugins: [
         new CopyWebpackPlugin([
